@@ -20,4 +20,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: hummingbird
+    shield: rommana_left rgbled_widget
+  - board: seeeduino_xiao_ble
+    shield: rommana_right rgbled_widget
