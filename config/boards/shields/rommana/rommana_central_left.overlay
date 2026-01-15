@@ -6,7 +6,7 @@
 
 #include "rommana.dtsi"
 
-&default_kscan: kscan0 {
+&default_kscan {
 
   // Top to Bottom
     row-gpios
