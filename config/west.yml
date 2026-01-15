@@ -3,8 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
 
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    #- name: caksoylar
+    #  url-base: https://github.com/caksoylar
     - name: englmaxi
       url-base: https://github.com/englmaxi
     - name: rafaelromao
@@ -21,10 +21,10 @@ manifest:
       remote: zmkfirmware
       revision: main
 
-    - name: zmk
-      remote: caksoylar
-      revision: main
-      path: modules/caksoylar/zmk
+#    - name: zmk
+#      remote: caksoylar
+#      revision: main
+#      path: modules/caksoylar/zmk
 
     - name: zmk-dongle-display
       remote: englmaxi
