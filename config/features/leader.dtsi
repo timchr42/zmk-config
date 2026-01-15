@@ -1,0 +1,18 @@
+/*
+*
+* Copyright (c) 2022 Rafael Romão
+* SPDX-License-Identifier: MIT
+*
+*/
+
+// More leader sequences in a secret file, not committed to the repo
+
+/ {
+//        MACRO(mc_exit,  &kp E &kp X &kp I &kp T &kp ENTER)
+
+        leader: leader {
+            compatible = "zmk,behavior-leader-key";
+            #binding-cells = <0>;
+//            ld_exit    { sequence = <B> ; bindings = <&md_exit>; };
+        };
+};

@@ -2,45 +2,62 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
-    - name: AlaaSaadAbdo
-      url-base: https://github.com/AlaaSaadAbdo
-    # - name: badjeff
-    #   url-base: https://github.com/badjeff
-    - name: charlesmst
-      url-base: https://github.com/charlesmst
+
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
+    - name: rafaelromao
+      url-base: https://github.com/rafaelromao
+    - name: ssbb
+      url-base: https://github.com/ssbb
+    - name: urob
+      url-base: https://github.com/urob
+
+    #- name: charlesmst
+    #  url-base: https://github.com/charlesmst
   projects:
-    # - name: zmk
-    #   remote: petejohanson
-    #   revision: dbbeb701aee215fbd5f5e9faecc778b745d4cf87 #pmw3610 trackball issue
-      # revision: feat/pointers-move-scroll
-    # - name: zmk
-    #   remote: AlaaSaadAbdo
-    #   revision: windows-10-pmw3610-pointer
-    #   import: app/west.yml
-    - name: chiptuner-zmk-module
-      remote: petejohanson
-      revision: main
-    # - name: zmk-pmw3610-driver
-    #   remote: inorichi
-    #   revision: main
-    - name: zmk-pmw3610-driver
-      remote: charlesmst
-      revision: main
-    # - name: zmk-pmw3610-driver
-    #   remote: badjeff
-    #   revision: main
-    # - name: zmk-input-behavior-listener
-    #   remote: badjeff
-    #   revision: main
-    # replace the one above with the commented one below when it gets merged into zmk
-    # must swap the zmk-fingerpunch-keyboards repo as well at the same time
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
+
+    - name: zmk
+      remote: caksoylar
+      revision: main
+      path: modules/caksoylar/zmk
+
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main
+      path: modules/englmaxi/zmk-dongle-display
+
+    - name: zmk-layer-morph
+      remote: rafaelromao
+      revision: main
+      path: modules/rafaelromao/zmk-layer-morph
+
+    - name: zmk-listeners
+      remote: ssbb
+      revision: main
+      path: modules/ssbb/zmk-listeners
+
+    - name: zmk-adaptive-key
+      remote: urob
+      revision: main
+      path: modules/urob/zmk-adaptive-key
+
+    - name: zmk-auto-layer
+      remote: urob
+      revision: main
+      path: modules/urob/zmk-auto-layer
+
+    - name: zmk-leader-key
+      remote: urob
+      revision: main
+      path: modules/urob/zmk-leader-key
+
+    #- name: zmk-pmw3610-driver
+    #  remote: charlesmst
+    #  revision: main
   self:
     path: config
