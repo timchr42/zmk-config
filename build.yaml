@@ -14,8 +14,8 @@
 ---
 include:
   - board: xiao_ble
-    shield: rommana_left rgbled_widget
+    shield: rommana_central_left rgbled_widget
   - board: xiao_ble
-    shield: rommana_right rgbled_widget
+    shield: rommana_peripheral_right rgbled_widget
   #- board: seeeduino_xiao
   #  shield: hummingbird
