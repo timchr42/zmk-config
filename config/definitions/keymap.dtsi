@@ -150,10 +150,10 @@
                 numbers_layer {
                      display-name = "NUMBERS";
                      bindings = <
-   &none               &th_lbrc 0 0        &th_rbrc 0 0        &DE_BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
-   &lt_deg FUN 0       &th_lpar 0 0        &th_rpar 0 0        &DE_AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &DE_DOT  
-   &none               &th_lbkt 0 0        &th_rbkt 0 0        &DE_PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none 
-                                           &none               &trans              &trans              &hlt SYM SPACE      &lt_n0 MEDIA 0      &none 
+   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp DE_BSLH         &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
+   &lt_deg FUN 0       &th_lpar 0 0        &th_rpar 0 0        &kp DE_AMPS         &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DE_DOT
+   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp DE_PIPE         &none               &none               &mc_n1              &mc_n2              &mc_n3              &none
+                                           &none               &trans              &trans              &hlt SYM SPACE      &lt_n0 MEDIA 0      &none
                         >;
                 };
 
@@ -161,9 +161,9 @@
                 symbols_layer {
                      display-name = "SYMBOLS";
                      bindings = <
-   &none               &mc_tilde           &DE_HASH            &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0   &none
-   &DE_AT              &th_caret_z 0 0     &DE_DOLLAR          &th_dqo 0 0         &none               &none               &th_qmark 0 0       &DE_MINUS           &DE_PLUS            &lt MACROS DE_COMMA
-   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &vim_slash          &DE_STAR            &none
+   &none               &mc_tilde           &kp DE_HASH         &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0   &none
+   &kp DE_AT           &th_caret_z 0 0     &kp DE_DOLLAR       &th_dqo 0 0         &none               &none               &th_qmark 0 0       &kp DE_MINUS        &kp DE_PLUS         &lt MACROS DE_COMMA
+   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &vim_slash          &kp DE_STAR            &none
                                            &none               &trans              &hlt NUM_CP SPACE   &none               &trans              &none
                         >;
                 };
