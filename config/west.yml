@@ -13,7 +13,7 @@ manifest:
       url-base: https://github.com/ssbb
     - name: urob
       url-base: https://github.com/urob
-    - nme: joelspadin
+    - name: joelspadin
       url-base: https://github.com/joelspadin
 
     #- name: charlesmst
