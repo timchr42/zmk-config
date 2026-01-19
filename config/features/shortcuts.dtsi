@@ -71,7 +71,7 @@
         MACRO(mc_meh_i,                  &macro_tap &kp LC(LA(LS(DE_I))))
         MODTAP_TP(mt_meh_i,              &mc_meh_i)
         MACRO(mc_meh_sqt,                &macro_tap &kp LC(LA(LS(DE_SQT))))
-        MODTAP_TP(mt_meh_sqt,             &mc_meh_sqt)
+        MODTAP_TP(mt_meh_sqt,            &mc_meh_sqt)
 
         // Navigation
 

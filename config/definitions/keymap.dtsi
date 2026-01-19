@@ -14,9 +14,9 @@
                 default_layer {
                      display-name = "DEFAULT";
                      bindings = <
-   &kp DE_Q            &kp DE_K            &kp O               &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
-   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT E          &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
-   &none               &mt LGUI DE_Z       &mt LGUI APOS       &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
+   &kp DE_Q            &kp DE_K            &kp DE_O            &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
+   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
+   &none               &mt LGUI DE_Z       &mt LGUI DE_SQT     &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_shift MEDIA 0   &mkp LCLK
                         >;
                 };
@@ -171,19 +171,19 @@
                 sentence_case_layer {
                      display-name = "SENTENCE CASE";
                      bindings = <
-   &kp LS(Q)           &kp LS(B)           &kp LS(M)           &kp LS(G)           &kp LS(K)           &kp LS(X)           &kp LS(L)           &kp LS(O)           &kp LS(U)           &trans
-   &kp LS(D)           &mt LCTL LS(N)      &mt LALT LS(S)      &mt LSFT LS(T)      &kp LS(W)           &kp LS(Z)           &mt LSFT LS(R)      &mt LALT LS(A)      &mt LCTL LS(E)      &kp LS(I)
-   &kp LS(Y)           &mt LGUI LS(F)      &mt LGUI LS(C)      &mt LGUI LS(P)      &kp LS(V)           &kp LS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
+   &kp LS(DE_Q)        &kp LS(DE_K)        &kp LS(DE_O)        &kp LS(DE_U)        &kp LS(DE_Y)        &kp LS(DE_V)        &kp LS(DE_D)        &kp LS(DE_C)        &kp LS(DE_L)        &kp LS(DE_F)
+   &kp LS(DE_H)        &mt LCTL LS(DE_A)   &mt LALT LS(DE_E)   &mt LSFT LS(DE_I)   &th_comma           &kp LS(DE_G)        &mt LSFT LS(DE_T)   &mt LALT LS(DE_R)   &mt LCTL LS(DE_N)   &kp LS(DE_S)
+   &none               &mt LGUI LS(DE_Z)   &mt LGUI LS(DE_SQT) &th_dot 0 0         &none               &none               &mt LGUI LS(DE_P)   &mt LGUI LS(DE_M)   &mt LGUI LS(DE_W)   &trans
                                            &trans              &trans              &trans              &lt_sft_a2 SYM_CP 0 &trans              &trans
                         >;
                 };
                 shifted_alpha2_layer {
                      display-name = "SHIFTED ALPHA2";
                      bindings = <
-   &none               &kp LS(Q)           &mc_qu_s            &kp LS(K)           &none               &none               &ac_ocir_s          &ac_oacu_s          &ac_uacu_s          &none
-   &kp LS(Y)           &kp LS(Z)           &kp LS(X)           &kp LS(W)           &none               &none               &ac_atil_s          &ac_aacu_s          &ac_eacu_s          &ac_iacu_s
-   &none               &kp LS(J)           &mc_ced_s           &reversed_magic_c   &none               &none               &ac_otil_s          &ac_acir_s          &ac_ecir_s          &none
-                                           &none               &mc_sqo             &trans              &kp SPACE           &mc_sqo             &none 
+   &none               &none               &kp LS(DE_O_UMLAUT) &kp LS(DE_U_UMLAUT) &none               &none               &none               &none               &none               &none
+   &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_SHARP_S)  &kp LS(DE_X)        &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
+   &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                           &none               &mc_sqo             &kp DE_UNDER        &kp DE_SPACE        &mc_sqo             &none
                         >;
                 };
                 case_alpha2_layer {
