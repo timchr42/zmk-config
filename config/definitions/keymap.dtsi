@@ -15,7 +15,7 @@
                      display-name = "DEFAULT";
                      bindings = <
    &kp DE_Q            &kp DE_K            &kp DE_O            &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
-   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
+   &lt SHORTS H        &mt LCTL DE_A       &mt LALT DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS S
    &none               &mt LGUI DE_Z       &mt LGUI DE_SQT     &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_shift MEDIA 0   &mkp LCLK
                         >;
