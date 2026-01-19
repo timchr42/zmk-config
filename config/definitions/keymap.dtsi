@@ -35,9 +35,9 @@
                 mehs_layer {
                      display-name = "MEHS";
                      bindings = <
-   &none              &mc_meh_b            &mc_meh_m           &mc_meh_g           &none               &none               &mc_meh_l           &mc_meh_o           &mc_meh_u           &none    
-   &mc_meh_d          &mc_meh_n            &mc_meh_s           &mc_meh_t           &none               &none               &mc_meh_r           &mc_meh_a           &mc_meh_e           &mc_meh_i
-   &none              &mt_meh_f LGUI 0     &mt_meh_c LGUI 0    &mt_meh_p LGUI 0    &none               &none               &mt_meh_h LGUI 0    &mt_meh_comm LGUI 0 &mt_meh_dot LGUI 0  &none
+   &none              &mc_meh_k            &mc_meh_o           &mc_meh_u           &mc_meh_y           &mc_meh_v           &mc_meh_d           &mc_meh_c           &mc_meh_l           &mc_meh_f
+   &mc_meh_h          &mc_meh_a            &mc_meh_e           &mc_meh_i           &mc_meh_comma       &mc_meh_g           &mc_meh_t           &mc_meh_r           &mc_meh_n           &mc_meh_s
+   &none              &mt_meh_z LGUI 0     &mt_meh_sqt LGUI 0  &mt_meh_dot LGUI 0  &none               &none               &mt_meh_p LGUI 0    &mt_meh_m LGUI 0    &mt_meh_w LGUI 0    &none
                                            &none               &msl_a1cp NAV 0     &hsk LGUI LGUI      &hsk LGUI LGUI      &msl_a1cp NAV 0     &none 
                         >;
                 };
@@ -117,30 +117,29 @@
                 capsword_layer {
                      display-name = "CAPSWORD";
                      bindings = <
-   &kp RS(Q)           &kp RS(B)           &kp RS(M)           &kp RS(G)           &kp RS(K)           &kp RS(X)           &kp RS(L)           &kp RS(O)           &kp RS(U)           &trans
-   &lt SHORTS RS(D)    &mt LCTL RS(N)      &mt LALT RS(S)      &mt LSFT RS(T)      &kp RS(W)           &kp RS(Z)           &mt LSFT RS(R)      &mt LALT RS(A)      &mt LCTL RS(E)      &lt SHORTS RS(I) 
-   &mc_qu_c            &mt LGUI RS(F)      &mt LGUI RS(C)      &mt LGUI RS(P)      &kp RS(V)           &kp RS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
+   &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
+   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
+   &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
                                            &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
                 };
                 capsline_layer {
                      display-name = "CAPSLINE";
                      bindings = <
-   &kp RS(Q)           &kp RS(B)           &kp RS(M)           &kp RS(G)           &kp RS(K)           &kp RS(X)           &kp RS(L)           &kp RS(O)           &kp RS(U)           &trans
-   &lt SHORTS RS(D)    &mt LCTL RS(N)      &mt LALT RS(S)      &mt LSFT RS(T)      &kp RS(W)           &kp RS(Z)           &mt LSFT RS(R)      &mt LALT RS(A)      &mt LCTL RS(E)      &lt SHORTS RS(I) 
-   &mc_qu_c            &mt LGUI RS(F)      &mt LGUI RS(C)      &mt LGUI RS(P)      &kp RS(V)           &kp RS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
-                                           &trans              &trans              &trans              &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
-                                           
+   &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
+   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
+   &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
+                                           &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
                 };
 
                 alpha2_layer {
                      display-name = "ALPHA2";
                      bindings = <
-   &none               &kp Q               &mc_qu              &kp K               &none               &none               &ac_ocir            &ac_oacu            &ac_uacu            &none
-   &kp Y               &kp Z               &kp X               &kp W               &none               &none               &ac_atil            &ac_aacu            &ac_eacu            &ac_iacu 
-   &none               &kp J               &mc_ced             &reversed_magic     &none               &none               &ac_otil            &ac_acir            &ac_ecir            &none 
-                                           &none               &mc_sqo             &kp UNDER           &kp SPACE           &mc_sqo             &none
+   &none               &none               &kp DE_O_UMLAUT     &kp DE_U_UMLAUT     &none               &none               &none               &none               &none               &none
+   &none               &kp DE_A_UMLAUT     &kp DE_SHARP_S      &kp DE_X            &none               &none               &kp DE_B            &kp DE_J            &none               &none
+   &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                           &none               &mc_sqo             &kp DE_UNDER        &kp DE_SPACE        &mc_sqo             &none
                         >;
                 };
 
