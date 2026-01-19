@@ -13,7 +13,7 @@
         MACRO(mc_end_semi,            &kp END &kp DE_SEMI)
         TAPHOLD_TP(th_semi,           &mm_semi, &mc_end_semi)
 
-        MACRO(mc_end_semi_ent,        &kp END &kp SEMI &kp ENTER)
+        MACRO(mc_end_semi_ent,        &kp END &kp DE_SEMI &kp ENTER)
 
         MACRO(mc_h,                   &kp DE_H)
         TAPHOLD_TP(th_hyper_h,        &mc_h, &mc_hyper)
@@ -58,7 +58,7 @@
         TAPHOLD_TP(th_and,            &mc_and, &mc_right_and)
 
         MACRO(mc_or,                  &kp DE_PIPE &kp DE_PIPE)
-        MACRO(mc_right_or,            &kp DE_RIGHT &kp DE_PIPE &kp DE_PIPE)
+        MACRO(mc_right_or,            &kp RIGHT &kp DE_PIPE &kp DE_PIPE)
         TAPHOLD_TP(th_or,             &mc_or, &mc_right_or)
 
         MACRO(mc_rpar,                &kp DE_RPAR)
