@@ -24,7 +24,7 @@
 #include "../features/adaptive_DE.dtsi"
 #include "../features/symbols_DE.dtsi"
 
-#include "../features/combos.dtsi"
+#include "../features/combos_DE.dtsi"
 #include "../features/leader.dtsi"
 
 #if __has_include("../secret.dtsi")
