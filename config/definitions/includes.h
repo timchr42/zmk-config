@@ -15,13 +15,13 @@
 #include "../features/mouse.dtsi"
 #include "../features/vim.dtsi" // Not setup on host side yet
 
-#include "../features/accents.dtsi"
-#include "../features/shortcuts.dtsi"
+#include "../features/accents_DE.dtsi"
+#include "../features/shortcuts_DE.dtsi"
 #include "../features/select.dtsi"
 
 #include "../features/sentence.dtsi"
 #include "../features/smart.dtsi"
-#include "../features/adaptive.dtsi"
+#include "../features/adaptive_DE.dtsi"
 #include "../features/symbols_DE.dtsi"
 
 #include "../features/combos.dtsi"
