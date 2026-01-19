@@ -14,9 +14,9 @@
                 default_layer {
                      display-name = "DEFAULT";
                      bindings = <
-   &kp Q               &kp B               &kp M               &kp G               &kp K               &kp X               &kp L               &kp O               &kp U               &kp SEMICOLON
-   &lt SHORTS D        &mt LCTL N          &mt LALT S          &mt LSFT T          &kp W               &kp Z               &mt LSFT R          &mt LALT A          &mt LCTL E          &lt SHORTS I
-   &kp Y               &mt LGUI F          &mt LGUI C          &mt LGUI P          &kp V               &kp J               &ht_magic LGUI 0    &th_comma 0 0       &th_dot 0 0         &kp SLASH
+   &kp DE_Q            &kp DE_K            &kp DE_O            &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
+   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
+   &none               &mt LGUI DE_Z       &mt LGUI DE_SQT     &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_shift MEDIA 0   &mkp LCLK
                         >;
                 };
