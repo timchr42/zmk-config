@@ -191,6 +191,16 @@
                         >;
                 };
 
+                case_ccedil_layer {
+                              display-name = "CASE Ç EXTENSION";
+                              bindings = <
+   &none               &none               &none               &none               &none               &none               &none               &trans              &trans              &none
+   &none               &none               &none               &mc_aotil_c         &none               &none               &ac_atil_c          &trans              &none               &none
+   &none               &none               &none               &mc_otiles_c        &none               &none               &ac_otil_c          &trans              &trans              &none
+                                           &none               &sl CASE_A2         &trans              &trans              &trans              &none
+                        >;
+                };
+
 
                 shortcuts_layer {
                      display-name = "SHORTCUTS";
