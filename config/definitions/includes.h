@@ -22,7 +22,7 @@
 #include "../features/sentence.dtsi"
 #include "../features/smart.dtsi"
 #include "../features/adaptive.dtsi"
-#include "../features/symbols.dtsi"
+#include "../features/symbols_DE.dtsi"
 
 #include "../features/combos.dtsi"
 #include "../features/leader.dtsi"
