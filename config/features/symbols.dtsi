@@ -86,7 +86,7 @@
         TAPHOLD_TP(th_lbrc,           &mc_lbrc, &mc_end_lbrc)
 
         MACRO(mc_pars,                &kp DE_LPAR &kp DE_RPAR)
-        MACRO(mc_end_pars,            &kp END &kp DE_LPAR &DE_RPAR)
+        MACRO(mc_end_pars,            &kp END &kp DE_LPAR &kp DE_RPAR)
         TAPHOLD_TP(th_pars,           &mc_pars, &mc_end_pars)
 
         MACRO(mc_brackets,            &kp DE_LBKT &kp DE_RBKT)
