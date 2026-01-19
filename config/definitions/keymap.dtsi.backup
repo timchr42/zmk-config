@@ -14,9 +14,9 @@
                 default_layer {
                      display-name = "DEFAULT";
                      bindings = <
-   &kp DE_Q            &kp DE_K            &kp O               &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
-   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT E          &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
-   &none               &mt LGUI DE_Z       &mt LGUI APOS       &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
+   &kp Q               &kp B               &kp M               &kp G               &kp K               &kp X               &kp L               &kp O               &kp U               &kp SEMICOLON
+   &lt SHORTS D        &mt LCTL N          &mt LALT S          &mt LSFT T          &kp W               &kp Z               &mt LSFT R          &mt LALT A          &mt LCTL E          &lt SHORTS I
+   &kp Y               &mt LGUI F          &mt LGUI C          &mt LGUI P          &kp V               &kp J               &ht_magic LGUI 0    &th_comma 0 0       &th_dot 0 0         &kp SLASH
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_shift MEDIA 0   &mkp LCLK
                         >;
                 };
@@ -24,9 +24,9 @@
                 alt_os_layer {
                      display-name = "ALT OS";
                      bindings = <
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans    
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans  
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans 
                                            &trans              &trans              &trans              &trans              &trans              &trans
                         >;
                 };
@@ -35,9 +35,9 @@
                 mehs_layer {
                      display-name = "MEHS";
                      bindings = <
-   &none              &mc_meh_k            &mc_meh_o           &mc_meh_u           &mc_meh_y           &mc_meh_v           &mc_meh_d           &mc_meh_c           &mc_meh_l           &mc_meh_f
-   &mc_meh_h          &mc_meh_a            &mc_meh_e           &mc_meh_i           &mc_meh_comma       &mc_meh_g           &mc_meh_t           &mc_meh_r           &mc_meh_n           &mc_meh_s
-   &none              &mt_meh_z LGUI 0     &mt_meh_sqt LGUI 0  &mt_meh_dot LGUI 0  &none               &none               &mt_meh_p LGUI 0    &mt_meh_m LGUI 0    &mt_meh_w LGUI 0    &none
+   &none              &mc_meh_b            &mc_meh_m           &mc_meh_g           &none               &none               &mc_meh_l           &mc_meh_o           &mc_meh_u           &none    
+   &mc_meh_d          &mc_meh_n            &mc_meh_s           &mc_meh_t           &none               &none               &mc_meh_r           &mc_meh_a           &mc_meh_e           &mc_meh_i
+   &none              &mt_meh_f LGUI 0     &mt_meh_c LGUI 0    &mt_meh_p LGUI 0    &none               &none               &mt_meh_h LGUI 0    &mt_meh_comm LGUI 0 &mt_meh_dot LGUI 0  &none
                                            &none               &msl_a1cp NAV 0     &hsk LGUI LGUI      &hsk LGUI LGUI      &msl_a1cp NAV 0     &none 
                         >;
                 };
@@ -106,9 +106,9 @@
                 vim_cmdline_layer {
                      display-name = "CMDLINE";
                      bindings = <
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans    
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans  
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans 
                                            &trans              &trans              &trans              &trans              &trans              &trans
                         >;
                 };
@@ -117,54 +117,49 @@
                 capsword_layer {
                      display-name = "CAPSWORD";
                      bindings = <
-   &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
-   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
-   &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
+   &kp RS(Q)           &kp RS(B)           &kp RS(M)           &kp RS(G)           &kp RS(K)           &kp RS(X)           &kp RS(L)           &kp RS(O)           &kp RS(U)           &trans
+   &lt SHORTS RS(D)    &mt LCTL RS(N)      &mt LALT RS(S)      &mt LSFT RS(T)      &kp RS(W)           &kp RS(Z)           &mt LSFT RS(R)      &mt LALT RS(A)      &mt LCTL RS(E)      &lt SHORTS RS(I) 
+   &mc_qu_c            &mt LGUI RS(F)      &mt LGUI RS(C)      &mt LGUI RS(P)      &kp RS(V)           &kp RS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
                                            &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
                 };
-
-
                 capsline_layer {
                      display-name = "CAPSLINE";
                      bindings = <
-   &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
-   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
-   &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
-                                           &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
+   &kp RS(Q)           &kp RS(B)           &kp RS(M)           &kp RS(G)           &kp RS(K)           &kp RS(X)           &kp RS(L)           &kp RS(O)           &kp RS(U)           &trans
+   &lt SHORTS RS(D)    &mt LCTL RS(N)      &mt LALT RS(S)      &mt LSFT RS(T)      &kp RS(W)           &kp RS(Z)           &mt LSFT RS(R)      &mt LALT RS(A)      &mt LCTL RS(E)      &lt SHORTS RS(I) 
+   &mc_qu_c            &mt LGUI RS(F)      &mt LGUI RS(C)      &mt LGUI RS(P)      &kp RS(V)           &kp RS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
+                                           &trans              &trans              &trans              &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
+                                           
                         >;
                 };
-
 
                 alpha2_layer {
                      display-name = "ALPHA2";
                      bindings = <
-   &none               &none               &kp DE_O_UMLAUT     &kp DE_U_UMLAUT     &none               &none               &none               &none               &none               &none
-   &none               &kp DE_A_UMLAUT     &kp DE_SHARP_S      &kp DE_X            &none               &none               &kp DE_B            &kp DE_J            &none               &none
-   &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-                                           &none               &mc_sqo             &kp DE_UNDER        &kp DE_SPACE        &mc_sqo             &none
+   &none               &kp Q               &mc_qu              &kp K               &none               &none               &ac_ocir            &ac_oacu            &ac_uacu            &none
+   &kp Y               &kp Z               &kp X               &kp W               &none               &none               &ac_atil            &ac_aacu            &ac_eacu            &ac_iacu 
+   &none               &kp J               &mc_ced             &reversed_magic     &none               &none               &ac_otil            &ac_acir            &ac_ecir            &none 
+                                           &none               &mc_sqo             &kp UNDER           &kp SPACE           &mc_sqo             &none
                         >;
                 };
-
 
                 numbers_layer {
                      display-name = "NUMBERS";
                      bindings = <
-   &none               &th_lbrc 0 0        &th_rbrc 0 0        &DE_BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
-   &lt_deg FUN 0       &th_lpar 0 0        &th_rpar 0 0        &DE_AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &DE_DOT  
-   &none               &th_lbkt 0 0        &th_rbkt 0 0        &DE_PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none 
+   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
+   &lt_deg FUN 0       &th_lpar 0 0        &th_rpar 0 0        &kp AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DOT  
+   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none 
                                            &none               &trans              &trans              &hlt SYM SPACE      &lt_n0 MEDIA 0      &none 
                         >;
                 };
-
-
                 symbols_layer {
                      display-name = "SYMBOLS";
                      bindings = <
-   &none               &mc_tilde           &DE_HASH            &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0   &none
-   &DE_AT              &th_caret_z 0 0     &DE_DOLLAR          &th_dqo 0 0         &none               &none               &th_qmark 0 0       &DE_MINUS           &DE_PLUS            &lt MACROS DE_COMMA
-   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &vim_slash          &DE_STAR            &none
-                                           &none               &trans              &hlt NUM_CP SPACE   &none               &trans              &none
+   &none               &mc_tilde           &kp HASH            &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0   &none
+   &kp AT              &th_caret_z 0 0     &kp DOLLAR          &th_dqo 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &lt MACROS COMMA
+   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &vim_slash          &kp STAR            &none 
+                                           &none               &trans              &hlt NUM_CP SPACE   &none               &trans              &none        
                         >;
                 };
 
@@ -172,17 +167,26 @@
                      display-name = "SENTENCE CASE";
                      bindings = <
    &kp LS(Q)           &kp LS(B)           &kp LS(M)           &kp LS(G)           &kp LS(K)           &kp LS(X)           &kp LS(L)           &kp LS(O)           &kp LS(U)           &trans
-   &kp LS(D)           &mt LCTL LS(N)      &mt LALT LS(S)      &mt LSFT LS(T)      &kp LS(W)           &kp LS(Z)           &mt LSFT LS(R)      &mt LALT LS(A)      &mt LCTL LS(E)      &kp LS(I)
+   &kp LS(D)           &mt LCTL LS(N)      &mt LALT LS(S)      &mt LSFT LS(T)      &kp LS(W)           &kp LS(Z)           &mt LSFT LS(R)      &mt LALT LS(A)      &mt LCTL LS(E)      &kp LS(I) 
    &kp LS(Y)           &mt LGUI LS(F)      &mt LGUI LS(C)      &mt LGUI LS(P)      &kp LS(V)           &kp LS(J)           &ht_magic_c LGUI 0  &th_comma 0 0       &th_dot 0 0         &trans
                                            &trans              &trans              &trans              &lt_sft_a2 SYM_CP 0 &trans              &trans
+                        >;
+                };
+                ccedil_layer {
+                     display-name = "Ç EXTENSION";
+                     bindings = <
+   &none               &none               &none               &none               &none               &none               &none               &trans              &trans              &none     
+   &none               &none               &none               &mc_aotil           &none               &none               &ac_atil            &trans              &none               &none   
+   &none               &none               &none               &mc_otiles          &none               &none               &ac_otil            &trans              &trans              &none  
+                                           &none               &sl ALPHA2          &trans              &trans              &trans              &none
                         >;
                 };
                 shifted_alpha2_layer {
                      display-name = "SHIFTED ALPHA2";
                      bindings = <
    &none               &kp LS(Q)           &mc_qu_s            &kp LS(K)           &none               &none               &ac_ocir_s          &ac_oacu_s          &ac_uacu_s          &none
-   &kp LS(Y)           &kp LS(Z)           &kp LS(X)           &kp LS(W)           &none               &none               &ac_atil_s          &ac_aacu_s          &ac_eacu_s          &ac_iacu_s
-   &none               &kp LS(J)           &mc_ced_s           &reversed_magic_c   &none               &none               &ac_otil_s          &ac_acir_s          &ac_ecir_s          &none
+   &kp LS(Y)           &kp LS(Z)           &kp LS(X)           &kp LS(W)           &none               &none               &ac_atil_s          &ac_aacu_s          &ac_eacu_s          &ac_iacu_s 
+   &none               &kp LS(J)           &mc_ced_s           &reversed_magic_c   &none               &none               &ac_otil_s          &ac_acir_s          &ac_ecir_s          &none  
                                            &none               &mc_sqo             &trans              &kp SPACE           &mc_sqo             &none 
                         >;
                 };
@@ -190,9 +194,18 @@
                      display-name = "CASE ALPHA2";
                      bindings = <
    &none               &kp RS(Q)           &mc_qu_c            &kp RS(K)           &none               &none               &ac_ocir_c          &ac_oacu_c          &ac_uacu_c          &none
-   &kp RS(Y)           &kp RS(Z)           &kp RS(X)           &kp RS(W)           &none               &none               &ac_atil_c          &ac_aacu_c          &ac_eacu_c          &ac_iacu_c
-   &none               &kp RS(J)           &mc_ced_c           &reversed_magic_c   &none               &none               &ac_otil_c          &ac_acir_c          &ac_ecir_c          &none
+   &kp RS(Y)           &kp RS(Z)           &kp RS(X)           &kp RS(W)           &none               &none               &ac_atil_c          &ac_aacu_c          &ac_eacu_c          &ac_iacu_c 
+   &none               &kp RS(J)           &mc_ced_c           &reversed_magic_c   &none               &none               &ac_otil_c          &ac_acir_c          &ac_ecir_c          &none 
                                            &none               &mc_sqo             &kp UNDER           &kp SPACE           &mc_sqo             &none 
+                        >;
+                };
+                case_ccedil_layer {
+                     display-name = "CASE Ç EXTENSION";
+                     bindings = <
+   &none               &none               &none               &none               &none               &none               &none               &trans              &trans              &none     
+   &none               &none               &none               &mc_aotil_c         &none               &none               &ac_atil_c          &trans              &none               &none   
+   &none               &none               &none               &mc_otiles_c        &none               &none               &ac_otil_c          &trans              &trans              &none 
+                                           &none               &sl CASE_A2         &trans              &trans              &trans              &none 
                         >;
                 };
 
@@ -200,18 +213,18 @@
                 shortcuts_layer {
                      display-name = "SHORTCUTS";
                      bindings = <
-   &none              &mc_calc             &mc_files           &mc_browser         &none               &none               &mc_ai              &mc_editor          &mc_activities      &none
+   &none              &mc_calc             &mc_files           &mc_browser         &none               &none               &mc_ai              &mc_editor          &mc_activities      &none    
    &mc_leader         &lt_zoom_out TOGS 0  &mc_zoom_in         &mc_new             &none               &none               &tc_num_word        &mc_containers      &lt_emoji TOGS 0    &mc_leader
-   &none              &mc_close            &mc_refresh         &mc_reopen          &none               &none               &mc_screenshot      &mc_notes           &mc_term            &none
+   &none              &mc_close            &mc_refresh         &mc_reopen          &none               &none               &mc_screenshot      &mc_notes           &mc_term            &none 
                                            &none               &mo TEXT            &lt FUN SPACE       &lt MACROS SPACE    &mo TEXT            &none 
                         >;
                 };
                 toggles_layer {
                      display-name = "TOGGLES";
                      bindings = <
-   &none              &none                &bt BT_SEL 0        &bt BT_CLR          &none               &none               &to NAV             &to FUN             &none               &none
-   &none              &none                &bt BT_PRV          &bt BT_NXT          &none               &none               &to NUM             &to MEDIA           &none               &none
-   &none              &bootloader          &tog_off ALT_OS     &to ALT_OS          &none               &none               &to VIM_NORMAL      &to MEHS            &bootloader         &none
+   &none              &none                &bt BT_SEL 0        &bt BT_CLR          &none               &none               &to NAV             &to FUN             &none               &none     
+   &none              &none                &bt BT_PRV          &bt BT_NXT          &none               &none               &to NUM             &to MEDIA           &none               &none    
+   &none              &bootloader          &tog_off ALT_OS     &to ALT_OS          &none               &none               &to VIM_NORMAL      &to MEHS            &bootloader         &none  
                                            &none               &kp CAPS            &kp KP_NUM          &mc_lock            &mc_sleep           &none
                         >;
                 };
@@ -219,9 +232,9 @@
                 secondary_alternate_repeat_layer {
                      display-name = "ALT REP 2";
                      bindings = <
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
-   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans    
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans  
+   &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans 
                                            &trans              &ht_alt_rep NAV 0   &trans              &trans              &trans              &trans
                         >;
                 };
@@ -231,7 +244,7 @@
                      bindings = <
    &none               &mc_swapper         &mc_tabs            &mc_launcher        &none               &none               &kp TAB             &lm_ent_vim         &lm_esc_vim         &none
    &lt_system TEXT 0   &mod_num LCTL LCTL  &mod_num LALT LALT  &mod_num LSFT LSFT  &none               &none               &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT
-   &none               &mod_num LGUI LGUI  &mod_num LGUI LGUI  &mod_num LGUI LGUI  &none               &none               &kp DEL             &kp HOME            &kp END             &none
+   &none               &mod_num LGUI LGUI  &mod_num LGUI LGUI  &mod_num LGUI LGUI  &none               &none               &kp DEL             &kp HOME            &kp END             &none 
                                            &none               &trans              &none               &hlt SYM_CP SPACE   &lt MEDIA INS       &none 
                         >;
                 };
@@ -239,19 +252,19 @@
                 numbers_copy_layer {
                      display-name = "NUMBERS";
                      bindings = <
-   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp DE_BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
-   &mc_deg             &th_lpar 0 0        &th_rpar 0 0        &kp DE_AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DE_DOT
-   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp DE_PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none
+   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
+   &mc_deg             &th_lpar 0 0        &th_rpar 0 0        &kp AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DOT  
+   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none 
                                            &none               &trans              &trans              &hlt SYM_CP SPACE   &lt_n0 MEDIA 0      &none 
                         >;
                 };
                 symbols_copy_layer {
                      display-name = "SYMBOLS";
                      bindings = <
-   &none               &mc_tilde           &kp DE_HASH         &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0      &none
-   &kp AT              &th_caret_z 0 0     &kp DE_DOLLAR       &th_dqo 0 0         &none               &none               &th_qmark 0 0       &kp DE_MINUS        &kp DE_PLUS            &kp DE_STAR
-   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &kp DE_SLASH        &kp DE_STAR            &none
-                                           &none               &trans              &kp SPACE           &kp SPACE           &trans              &none
+   &none               &mc_tilde           &kp HASH            &th_sqo 0 0         &none               &none               &th_perc 0 0        &th_eql 0 0         &th_colon_vim 0 0   &none
+   &kp AT              &th_caret_z 0 0     &kp DOLLAR          &th_dqo 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &kp STAR  
+   &none               &mc_lt              &mc_gt              &th_bti 0 0         &none               &none               &th_excl 0 0        &kp SLASH           &kp STAR            &none 
+                                           &none               &trans              &kp SPACE           &kp SPACE           &trans              &none 
                         >;
                 };
 
@@ -260,8 +273,8 @@
                     bindings = <
    &none               &mkp MCLK           &mkp LCLK           &mkp RCLK           &none               &none               &mc_home_tab        &mc_end_enter_vim   &lm_esc_vim        &none
    &none               &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT     &none               &none               &mc_mic             &mt C_MUTE C_VOL_DN &kp C_VOL_UP       &lt_cam TEXT 0
-   &none               &msc SCRL_DOWN      &mmv MOVE_DOWN      &msc SCRL_UP        &none               &none               &kp C_PP            &kp C_PREV          &kp C_NEXT         &none
-                                           &none               &mo NAV_CP          &kp SPACE           &none               &trans              &none
+   &none               &msc SCRL_DOWN      &mmv MOVE_DOWN      &msc SCRL_UP        &none               &none               &kp C_PP            &kp C_PREV          &kp C_NEXT         &none 
+                                           &none               &mo NAV_CP          &kp SPACE           &none               &trans              &none 
                         >;
                 };
                 navigation_copy_layer {

@@ -10,8 +10,10 @@
 #include "helpers.h"
 #include "config.dtsi"
 
+#include <locale/keys_de.h>
+
 #include "../features/mouse.dtsi"
-#include "../features/vim.dtsi"
+// #include "../features/vim.dtsi" // Not setup on host side yet
 
 #include "../features/accents.dtsi"
 #include "../features/shortcuts.dtsi"

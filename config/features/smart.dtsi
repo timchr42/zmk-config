@@ -25,8 +25,8 @@
             compatible = "zmk,behavior-auto-layer";
             ignore-numbers;
             #binding-cells = <1>;
-            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL AMPS PIPE HASH TILDE CARET LEFT RIGHT HOME END 
-                             LBRC RBRC BACKSLASH DOLLAR AT LPAR RPAR DQT SQT LBKT RBKT QMARK GRAVE>;
+            continue-list = <DE_BSPC DE_DEL DE_DOT DE_COMMA DE_PLUS DE_MINUS DE_STAR DE_FSLH DE_EQUAL DE_AMPS DE_PIPE DE_HASH DE_TILDE DE_CARET LEFT RIGHT HOME END 
+                             DE_LBRC DE_RBRC DE_BACKSLASH DE_DOLLAR DE_AT DE_LPAR DE_RPAR DE_DQT DE_SQT DE_LBKT DE_RBKT DE_QMARK DE_GRAVE>;
         };
 
         tc_num_word: tc_num_word {
@@ -43,8 +43,8 @@
             compatible = "zmk,behavior-auto-layer";
             ignore-numbers;
             #binding-cells = <1>;
-            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL AMPS PIPE HASH TILDE CARET
-                             LBRC RBRC BACKSLASH DOLLAR AT LPAR RPAR DQT SQT LBKT RBKT QMARK GRAVE>;
+            continue-list = <DE_BSPC DEL DE_DOT DE_COMMA DE_PLUS DE_MINUS DE_STAR DE_FSLH DE_EQUAL DE_AMPS DE_PIPE DE_HASH DE_TILDE DE_CARET
+                             DE_LBRC DE_RBRC DE_BACKSLASH DE_DOLLAR DE_AT DE_LPAR DE_RPAR DE_DQT DE_SQT DE_LBKT DE_RBKT DE_QMARK DE_GRAVE>;
         };
 
         tc_num_word_cp: tc_num_word_cp {
@@ -62,7 +62,7 @@
             ignore-alphas;
             ignore-modifiers;
             #binding-cells = <1>;  
-            continue-list = <UNDERSCORE MINUS COMMA BACKSPACE DELETE SQT TILDE CARET GRAVE LEFT RIGHT SPACE>;
+            continue-list = <DE_UNDERSCORE DE_MINUS DE_COMMA BACKSPACE DELETE DE_SQT DE_TILDE DE_CARET DE_GRAVE LEFT RIGHT DE_SPACE>;
         };
         MACRO(tc_smart_line, &smart_line CPLK_A1)
 
@@ -73,7 +73,7 @@
             ignore-alphas;
             ignore-modifiers;
             #binding-cells = <1>;  
-            continue-list = <UNDERSCORE MINUS COMMA BACKSPACE DELETE SQT TILDE CARET GRAVE LEFT RIGHT>;
+            continue-list = <DE_UNDERSCORE DE_MINUS DE_COMMA BACKSPACE DELETE DE_SQT DE_TILDE DE_CARET DE_GRAVE LEFT RIGHT>;
         };
         MACRO(tc_smart_word, &smart_word CASE_A1)
 

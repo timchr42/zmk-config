@@ -122,7 +122,7 @@
         VIM_MACRO(vim_d                 , &vim_normal &kp D)
         VIM_BINDING(lm_d_vim            , VIM_VISUAL, &vim_d, &kp D)
 
-        VIM_MACRO(vim_y                 , &vim_normal &kp Y)
+        VIM_MACRO(vim_y                 , &vim_normal &kp DE_Y)
         VIM_BINDING(lm_y_vim            , VIM_VISUAL, &vim_y, &kp Y)
 
         VIM_MACRO(vim_p                 , &vim_normal &kp P)
