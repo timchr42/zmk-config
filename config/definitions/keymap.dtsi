@@ -129,7 +129,7 @@
    &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
    &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
    &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
-                                           &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
+                                           &trans              &trans              &trans              &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
                 };
 
@@ -172,13 +172,23 @@
                         >;
                 };
 
+                ccedil_layer {
+                      display-name = "Ç EXTENSION";
+                      bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &trans              &trans              &none     
+    &none               &none               &none               &mc_aotil           &none               &none               &ac_atil            &trans              &none               &none   
+    &none               &none               &none               &mc_otiles          &none               &none               &ac_otil            &trans              &trans              &none  
+                                                                &none               &sl ALPHA2          &trans              &trans              &trans              &none
+                        >;
+                };
+
                 shifted_alpha2_layer {
                      display-name = "SHIFTED ALPHA2";
                      bindings = <
    &none               &none               &kp LS(DE_O_UMLAUT) &kp LS(DE_U_UMLAUT) &none               &none               &none               &none               &none               &none
    &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_SHARP_S)  &kp LS(DE_X)        &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-                                           &none               &mc_sqo             &kp DE_UNDER        &kp DE_SPACE        &mc_sqo             &none
+                                           &none               &mc_sqo             &trans              &kp SPACE           &mc_sqo             &none 
                         >;
                 };
                 case_alpha2_layer {
@@ -187,7 +197,7 @@
    &none               &kp RS(Q)           &kp RS(DE_O_UMLAUT) &kp RS(DE_U_UMLAUT) &none               &none               &ac_ocir_c          &ac_oacu_c          &ac_uacu_c          &none
    &none               &kp RS(DE_A_UMLAUT) &kp RS(DE_SHARP_S)  &kp RS(DE_X)        &none               &none               &ac_atil_c          &ac_aacu_c          &ac_eacu_c          &ac_iacu_c
    &none               &kp RS(J)           &mc_ced_c           &reversed_magic_c   &none               &none               &ac_otil_c          &ac_acir_c          &ac_ecir_c          &none
-
+                                           &none               &mc_sqo             &kp DE_UNDER        &kp SPACE           &mc_sqo             &none
                         >;
                 };
 
@@ -237,17 +247,17 @@
    &none               &mc_swapper         &mc_tabs            &mc_launcher        &none               &none               &kp TAB             &lm_ent_vim         &lm_esc_vim         &none
    &lt_system TEXT 0   &mod_num LCTL LCTL  &mod_num LALT LALT  &mod_num LSFT LSFT  &none               &none               &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT
    &none               &mod_num LGUI LGUI  &mod_num LGUI LGUI  &mod_num LGUI LGUI  &none               &none               &kp DEL             &kp HOME            &kp END             &none 
-                                           &none               &trans              &none               &hlt SYM_CP SPACE   &lt MEDIA INS       &none 
+                                           &none               &trans              &none               &hlt SYM_CP SPACE   &lt MEDIA INS       &none
                         >;
                 };
 
                 numbers_copy_layer {
                      display-name = "NUMBERS";
                      bindings = <
-   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp DE_BSLH            &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
-   &mc_deg             &th_lpar 0 0        &th_rpar 0 0        &kp DE_AMPS            &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DE_DOT
-   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp DE_PIPE            &none               &none               &mc_n1              &mc_n2              &mc_n3              &none
-                                           &none               &trans              &trans              &hlt SYM_CP SPACE   &lt_n0 MEDIA 0      &none 
+   &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp DE_BSLH         &none               &none               &mc_n7              &mc_n8              &mc_n9              &none
+   &mc_deg             &th_lpar 0 0        &th_rpar 0 0        &kp DE_AMPS         &none               &none               &mc_n4              &mc_n5              &mc_n6              &kp DE_DOT
+   &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp DE_PIPE         &none               &none               &mc_n1              &mc_n2              &mc_n3              &none
+                                           &none               &trans              &trans              &hlt SYM_CP SPACE   &lt_n0 MEDIA 0      &none
                         >;
                 };
                 symbols_copy_layer {
