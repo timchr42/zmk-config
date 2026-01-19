@@ -165,7 +165,7 @@
         OS_MORPH(mc_prev_word,         &macro_tap &kp LA(LEFT),                                                                        &macro_tap &kp LC(LEFT))
         OS_MORPH(mc_next_word,         &macro_tap &kp LA(RIGHT),                                                                       &macro_tap &kp LC(RIGHT))
         OS_MORPH(mc_del_word,          &macro_press &kp LA(DELETE) &macro_pause_for_release &macro_release &kp LA(DELETE),             &macro_press &kp LC(DELETE) &macro_pause_for_release &macro_release &kp LC(DELETE))
-        OS_MORPH(mc_bsp_word,          &macro_press &kp LA(DE_BACKSPACE) &macro_pause_for_release &macro_release &kp LA(BACKSPACE),    &macro_press &kp LC(BACKSPACE) &macro_pause_for_release &macro_release &kp LC(BACKSPACE))
+        OS_MORPH(mc_bsp_word,          &macro_press &kp LA(BACKSPACE) &macro_pause_for_release &macro_release &kp LA(BACKSPACE),       &macro_press &kp LC(BACKSPACE) &macro_pause_for_release &macro_release &kp LC(BACKSPACE))
                                                                                                                              
         // Meh and Hyper                                                                                                     
                                                                                                                              
