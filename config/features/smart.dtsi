@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-auto-layer";
             ignore-numbers;
             #binding-cells = <1>;
-            continue-list = <DE_BSPC DE_DEL DE_DOT DE_COMMA DE_PLUS DE_MINUS DE_STAR DE_FSLH DE_EQUAL DE_AMPS DE_PIPE DE_HASH DE_TILDE DE_CARET LEFT RIGHT HOME END 
+            continue-list = <BSPC DEL DE_DOT DE_COMMA DE_PLUS DE_MINUS DE_STAR DE_FSLH DE_EQUAL DE_AMPS DE_PIPE DE_HASH DE_TILDE DE_CARET LEFT RIGHT HOME END 
                              DE_LBRC DE_RBRC DE_BACKSLASH DE_DOLLAR DE_AT DE_LPAR DE_RPAR DE_DQT DE_SQT DE_LBKT DE_RBKT DE_QMARK DE_GRAVE>;
         };
 
