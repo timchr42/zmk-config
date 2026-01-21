@@ -239,6 +239,9 @@
         COMBO_MUST_TAP(ht_q       , &kp LCTL &kp LALT          , &kp DE_Q)
         COMBO_MUST_TAP(ht_z       , &kp LSFT &kp LALT          , &kp DE_Z)
         COMBO_MUST_TAP(ht_y       , &kp LALT &kp LCTL          , &kp DE_Y)
+        COMBO_MUST_TAP(ht_ae      , &kp LCTL &kp LALT          , &kp DE_A_UMLAUT)
+        COMBO_MUST_TAP(ht_oe      , &kp LCTL &kp LALT          , &kp DE_O_UMLAUT)
+        COMBO_MUST_TAP(ht_ue      , &kp LCTL &kp LALT          , &kp DE_U_UMLAUT)
         COMBO_MUST_TAP(ht_meh_spc , &kp LCTL &kp LALT &kp LSFT , &mc_meh_space)
         COMBO_MUST_TAP(ht_meh_ent , &kp LCTL &kp LALT &kp LSFT , &mc_meh_enter)
     };
