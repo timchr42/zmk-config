@@ -15,7 +15,7 @@
                      display-name = "DEFAULT";
                      bindings = <
    &kp DE_Q            &kp DE_K            &kp DE_O            &kp DE_U            &kp DE_Y            &kp DE_V            &kp DE_D            &kp DE_C            &kp DE_L           &kp DE_F
-   &lt SHORTS DE_H     &mt LCTL DE_A       &mt LALT DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LALT DE_R       &mt LCTL DE_N      &lt SHORTS DE_S
+   &lt SHORTS DE_H     &mt LALT DE_A       &mt LCTL DE_E       &mt LSFT DE_I       &th_comma 0 0       &kp DE_G            &mt LSFT DE_T       &mt LCTL DE_R       &mt LALT DE_N      &lt SHORTS DE_S
    &none               &mt LGUI DE_Z       &mt LGUI DE_SQT     &th_dot 0 0         &none               &none               &mt LGUI DE_P       &mt LGUI DE_M       &mt LGUI DE_W      &none
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_shift MEDIA 0   &mkp LCLK
                         >;
@@ -47,7 +47,7 @@
                      display-name = "NORMAL";
                      bindings = <
    &none               &kp B               &kp E               &kp W               &none               &none               &kp G               &mc_o_vim           &kp U               &none
-   &lt_q_vim SHORTS 0  &mt LCTL N          &mt_s_vim LALT 0    &mt_r_vim LSFT 0    &none               &none               &mt LSFT H          &mt LALT J          &mt LCTL K          &lt SHORTS L
+   &lt_q_vim SHORTS 0  &mt LALT N          &mt_s_vim LCTL 0    &mt_r_vim LSFT 0    &none               &none               &mt LSFT H          &mt LCTL J          &mt LALT K          &lt SHORTS L
    &none               &mt LGUI F          &mt_c_vim LGUI 0    &mt LGUI T          &none               &none               &mt_i_vim LGUI 0    &mc_a_vim           &kp DOT             &none
                                            &none               &ht_repeat NAV 0    &lt_lead_vim NUM 0  &msl_sym_a2 0 0     &ht_shift MEDIA 0   &none
                         >;
@@ -97,7 +97,7 @@
                      display-name = "REPLACE";
                      bindings = <
    &kp Q               &kp B               &kp M               &kp G               &kp K               &kp X               &kp L               &kp O               &kp U               &kp SEMICOLON
-   &lt SHORTS D        &mt LCTL N          &mt LALT S          &mt LSFT T          &kp W               &kp Z               &mt LSFT R          &mt LALT A          &mt LCTL E          &lt SHORTS I
+   &lt SHORTS D        &mt LALT N          &mt LCTL S          &mt LSFT T          &kp W               &kp Z               &mt LSFT R          &mt LCTL A          &mt LALT E          &lt SHORTS I
    &kp Y               &mt LGUI F          &mt LGUI C          &mt LGUI P          &kp V               &kp J               &ht_magic LGUI 0    &th_comma 0 0       &th_dot 0 0         &kp SLASH
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_sft_vim MEDIA 0 &mkp LCLK
                         >;
@@ -118,7 +118,7 @@
                      display-name = "CAPSWORD";
                      bindings = <
    &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
-   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
+   &lt SHORTS RS(DE_H) &mt LALT RS(DE_A)   &mt LCTL RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LCTL RS(DE_R)   &mt LALT RS(DE_N)   &lt SHORTS RS(DE_S)
    &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
                                            &trans              &trans              &msk_spc NUM 0      &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
@@ -127,7 +127,7 @@
                      display-name = "CAPSLINE";
                      bindings = <
    &kp RS(DE_Q)        &kp RS(DE_K)        &kp RS(DE_O)        &kp RS(DE_U)        &kp RS(DE_Y)        &kp RS(DE_V)        &kp RS(DE_D)        &kp RS(C)           &kp RS(DE_L)        &kp RS(DE_F)
-   &lt SHORTS RS(DE_H) &mt LCTL RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LALT RS(DE_R)   &mt LCTL RS(DE_N)   &lt SHORTS RS(DE_S)
+   &lt SHORTS RS(DE_H) &mt LALT RS(DE_A)   &mt LALT RS(DE_E)   &mt LSFT RS(DE_I)   &th_comma 0 0       &kp RS(DE_G)        &mt LSFT RS(DE_T)   &mt LCTL RS(DE_R)   &mt LALT RS(DE_N)   &lt SHORTS RS(DE_S)
    &trans              &mt LGUI RS(DE_Z)   &mt LGUI RS(DE_SQT) &th_dot 0 0         &trans              &trans              &mt LGUI RS(DE_P)   &mt LGUI RS(DE_M)   &mt LGUI RS(DE_W)   &trans
                                            &trans              &trans              &trans              &msl_case2 SYM 0    &lt_cancel MEDIA 0  &trans
                         >;
@@ -166,7 +166,7 @@
                      display-name = "SENTENCE CASE";
                      bindings = <
    &kp LS(DE_Q)        &kp LS(DE_K)        &kp LS(DE_O)        &kp LS(DE_U)        &kp LS(DE_Y)        &kp LS(DE_V)        &kp LS(DE_D)        &kp LS(DE_C)        &kp LS(DE_L)        &kp LS(DE_F)
-   &kp LS(DE_H)        &mt LCTL LS(DE_A)   &mt LALT LS(DE_E)   &mt LSFT LS(DE_I)   &th_comma           &kp LS(DE_G)        &mt LSFT LS(DE_T)   &mt LALT LS(DE_R)   &mt LCTL LS(DE_N)   &kp LS(DE_S)
+   &kp LS(DE_H)        &mt LALT LS(DE_A)   &mt LCTL LS(DE_E)   &mt LSFT LS(DE_I)   &th_comma           &kp LS(DE_G)        &mt LSFT LS(DE_T)   &mt LCTL LS(DE_R)   &mt LALT LS(DE_N)   &kp LS(DE_S)
    &none               &mt LGUI LS(DE_Z)   &mt LGUI LS(DE_SQT) &th_dot 0 0         &none               &none               &mt LGUI LS(DE_P)   &mt LGUI LS(DE_M)   &mt LGUI LS(DE_W)   &trans
                                            &trans              &trans              &trans              &lt_sft_a2 SYM_CP 0 &trans              &trans
                         >;
@@ -186,7 +186,7 @@
                      display-name = "SHIFTED ALPHA2";
                      bindings = <
    &none               &none               &kp LS(DE_O_UMLAUT) &kp LS(DE_U_UMLAUT) &none               &none               &kp LS(DE_SZ)       &none               &none               &none
-   &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_A_UMLAUT  &kp LS(DE_O_UMLAUT) &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
+   &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_A_UMLAUT) &kp LS(DE_O_UMLAUT) &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
    &none               &none               &none               &kp LS(DE_X)        &none               &none               &none               &none               &none               &none
                                            &none               &mc_sqo             &trans              &kp SPACE           &mc_sqo             &none 
                         >;
@@ -245,7 +245,7 @@
                      display-name = "NAVIGATION";
                      bindings = <
    &none               &mc_swapper         &mc_tabs            &mc_launcher        &none               &none               &kp TAB             &lm_ent_vim         &lm_esc_vim         &none
-   &lt_system TEXT 0   &mod_num LCTL LCTL  &mod_num LALT LALT  &mod_num LSFT LSFT  &none               &none               &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT
+   &lt_system TEXT 0   &mod_num LALT LALT  &mod_num LCTL LCTL  &mod_num LSFT LSFT  &none               &none               &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT
    &none               &mod_num LGUI LGUI  &mod_num LGUI LGUI  &mod_num LGUI LGUI  &none               &none               &kp DEL             &kp HOME            &kp END             &none 
                                            &none               &trans              &none               &hlt SYM_CP SPACE   &lt MEDIA INS       &none
                         >;
@@ -302,7 +302,7 @@
                      display-name = "FUNCTIONS";
                      bindings = <
    &none               &kp F13             &kp F14             &kp F15             &none               &none               &kp F7              &kp F8              &kp F9             &none 
-   &none               &hsk LCTL LCTL      &hsk LALT LALT      &hsk LSFT LSFT      &none               &none               &kp F4              &kp F5              &kp F6             &kp F12      
+   &none               &hsk LALT LALT      &hsk LCTL LCTL      &hsk LSFT LSFT      &none               &none               &kp F4              &kp F5              &kp F6             &kp F12      
    &none               &hsk LGUI LGUI      &hsk LGUI LGUI      &hsk LGUI LGUI      &none               &none               &kp F1              &kp F2              &kp F3             &none
                                            &none               &none               &none               &kp F10             &kp F11             &none
                         >;
