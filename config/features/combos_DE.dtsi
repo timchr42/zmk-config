@@ -96,10 +96,10 @@
         COMBO(cb_x,             LBI LBM,         &kp X,                  ALPHA1 VIM_LAYERS_BASE)
         COMBO(cb_ae,            LHR LHM,         &ht_ae 0 0,             ALPHA1 VIM_LAYERS_BASE)
 
-        COMBO(cb_ue,            LTM LTI,         &kp LS(DE_U_UMLAUT),       CASE_A1 CPLK_A1)
-        COMBO(cb_oe,            LHM LHI,         &kp LS(DE_O_UMLAUT),       CASE_A1 CPLK_A1)
-        COMBO(cb_x,             LBI LBM,         &kp LS(DE_X),             CASE_A1 CPLK_A1)
-        COMBO(cb_ae,            LHR LHM,         &kp LS(DE_A_UMLAUT),       CASE_A1 CPLK_A1)
+        COMBO(cb_ou,            LTM LTI,         &kp LS(DE_U_UMLAUT),       CASE_A1 CPLK_A1)
+        COMBO(cb_ei,            LHM LHI,         &kp LS(DE_O_UMLAUT),       CASE_A1 CPLK_A1)
+        COMBO(cb_sqtcomma,      LBI LBM,         &kp LS(DE_X),             CASE_A1 CPLK_A1)
+        COMBO(cb_ae_letter,     LHR LHM,         &kp LS(DE_A_UMLAUT),       CASE_A1 CPLK_A1)
 
         COMBO(cb_x,             RTI RTM,         &kp DE_SZ,              ALPHA1 VIM_LAYERS_BASE)
         COMBO(cb_b,             RHI RHM,         &ht_b 0 0,              ALPHA1 VIM_LAYERS_BASE)
