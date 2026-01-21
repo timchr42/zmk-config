@@ -136,9 +136,9 @@
                 alpha2_layer {
                      display-name = "ALPHA2";
                      bindings = <
-   &none               &none               &kp DE_O_UMLAUT     &kp DE_U_UMLAUT     &none               &none               &none               &none               &none               &none
-   &none               &kp DE_A_UMLAUT     &kp DE_SHARP_S      &kp DE_X            &none               &none               &kp DE_B            &kp DE_J            &none               &none
-   &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+   &none               &none               &kp DE_O_UMLAUT     &kp DE_U_UMLAUT     &none               &none               &kp DE_SZ           &kp DE_SZ           &none               &none
+   &none               &kp DE_A_UMLAUT     &kp DE_A_UMLAUT     &kp DE_O_UMLAUT     &none               &none               &kp DE_B            &kp DE_J            &none               &none
+   &none               &none               &kp DE_X            &kp DE_X            &none               &none               &none               &none               &none               &none
                                            &none               &mc_sqo             &kp DE_UNDER        &kp DE_SPACE        &mc_sqo             &none
                         >;
                 };
@@ -185,9 +185,9 @@
                 shifted_alpha2_layer {
                      display-name = "SHIFTED ALPHA2";
                      bindings = <
-   &none               &none               &kp LS(DE_O_UMLAUT) &kp LS(DE_U_UMLAUT) &none               &none               &none               &none               &none               &none
-   &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_SHARP_S)  &kp LS(DE_X)        &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
-   &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+   &none               &none               &kp LS(DE_O_UMLAUT) &kp LS(DE_U_UMLAUT) &none               &none               &kp LS(DE_SZ)       &none               &none               &none
+   &none               &kp LS(DE_A_UMLAUT) &kp LS(DE_A_UMLAUT  &kp LS(DE_O_UMLAUT) &none               &none               &kp LS(DE_B)        &kp LS(DE_J)        &none               &none
+   &none               &none               &none               &kp LS(DE_X)        &none               &none               &none               &none               &none               &none
                                            &none               &mc_sqo             &trans              &kp SPACE           &mc_sqo             &none 
                         >;
                 };
@@ -196,7 +196,7 @@
                      bindings = <
    &none               &kp RS(Q)           &kp RS(DE_O_UMLAUT) &kp RS(DE_U_UMLAUT) &none               &none               &ac_ocir_c          &ac_oacu_c          &ac_uacu_c          &none
    &none               &kp RS(DE_A_UMLAUT) &kp RS(DE_SHARP_S)  &kp RS(DE_X)        &none               &none               &ac_atil_c          &ac_aacu_c          &ac_eacu_c          &ac_iacu_c
-   &none               &kp RS(J)           &mc_ced_c           &reversed_magic_c   &none               &none               &ac_otil_c          &ac_acir_c          &ac_ecir_c          &none
+   &none               &none               &none               &reversed_magic_c   &none               &none               &ac_otil_c          &ac_acir_c          &ac_ecir_c          &none
                                            &none               &mc_sqo             &kp DE_UNDER        &kp SPACE           &mc_sqo             &none
                         >;
                 };

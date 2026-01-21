@@ -78,7 +78,7 @@
         MODTAP_TP(mt_meh_ae,             &mc_meh_ae)
         MACRO(mc_meh_ue,                 &macro_tap &kp LC(LA(LS(DE_U_UMLAUT))))
         MODTAP_TP(mt_meh_ue,             &mc_meh_ue)
-        MACRO(mc_meh_ss,                 &macro_tap &kp LC(LA(LS(DE_SS))))
+        MACRO(mc_meh_ss,                 &macro_tap &kp LC(LA(LS(DE_SZ))))
         MODTAP_TP(mt_meh_ss,             &mc_meh_ss)
 
         // Navigation
