@@ -101,7 +101,7 @@
         COMBO(cb_sqtcomma,      LBI LBM,         &kp LS(DE_X),             CASE_A1 CPLK_A1)
         COMBO(cb_ae_letter,     LHR LHM,         &kp LS(DE_A_UMLAUT),       CASE_A1 CPLK_A1)
 
-        COMBO(cb_x,             RTI RTM,         &kp DE_SZ,              ALPHA1 VIM_LAYERS_BASE)
+        COMBO(cb_sz,            RTI RTM,         &kp DE_SZ,              ALPHA1 VIM_LAYERS_BASE)
         COMBO(cb_b,             RHI RHM,         &ht_b 0 0,              ALPHA1 VIM_LAYERS_BASE)
 //      COMBO(cb_j,             RBI RBM,         &kp J,                  ALPHA1 VIM_LAYERS_BASE)
         COMBO(cb_j,             RHM RHR,         &ht_j 0 0,              ALPHA1 VIM_LAYERS_BASE)
