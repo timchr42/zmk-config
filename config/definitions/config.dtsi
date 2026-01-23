@@ -29,27 +29,25 @@
 #define SYM 14
 
 #define SEN_CASE 15
-#define CCEDIL 16
-#define SFT_A2 17
-#define CASE_A2 18
-#define CASE_CCEDIL 19
+#define SFT_A2 16
+#define CASE_A2 17
 
-#define SHORTS 20
-#define TOGS 21
+#define SHORTS 18
+#define TOGS 19
 
-#define ALTREP2 22
+#define ALTREP2 20
 
-#define NAV 23
+#define NAV 21
 
-#define NUM_CP 24
-#define SYM_CP 25
+#define NUM_CP 22
+#define SYM_CP 23
 
-#define MEDIA 26
-#define NAV_CP 27
+#define MEDIA 24
+#define NAV_CP 25
 
-#define TEXT 28
-#define FUN 29
-#define MACROS 30
+#define TEXT 26
+#define FUN 27
+#define MACROS 28
 
 
 // Mod morphs
