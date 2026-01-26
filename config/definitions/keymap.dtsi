@@ -48,7 +48,7 @@
                      bindings = <
    &lm_q_vim           &kp W               &kp E               &vim_r              &kp T               &kp Y               &kp U               &mc_i_vim           &mc_o_vim           &kp P
    &lt_a_vim SHORTS 0  &mt_s_vim LALT 0    &mt LCTL D          &mt LSFT F          &kp G               &kp H               &mt LSFT J          &mt LCTL K          &mt LALT L          &lt SHORTS DE_SEMICOLON
-   &none               &mt LGUI X          &mt_c_vim LGUI 0    &mt LGUI V          &none               &none               &mt N LGUI 0        &kp M               &kp DOT             &none
+   &none               &mt LGUI X          &mt_c_vim LGUI 0    &mt LGUI V          &none               &none               &mt LGUI N          &kp M               &kp DOT             &none
                                            &none               &ht_repeat NAV 0    &lt_lead_vim NUM 0  &msl_sym_a2 0 0     &ht_shift MEDIA 0   &none
                         >;
                 };
