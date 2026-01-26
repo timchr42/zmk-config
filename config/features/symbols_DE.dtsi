@@ -258,13 +258,14 @@
         MACRO(mc_c_vim,  &lm_c_vim)
         MACRO(mc_ca_vim, &vim_ca       &kp F24) // reset antecedent key for magic keys
         MACRO(mc_ci_vim, &vim_ci       &kp F24) // reset antecedent key for magic keys
-        MACRO(mc_ce_vim, &kp DE_E         &kp F24) // reset antecedent key for magic keys
+        MACRO(mc_ce_vim, &kp DE_E      &kp F24) // reset antecedent key for magic keys
 
         MODTAP_TP(mt_i_vim, &mc_i_vim)
         MODTAP_TP(mt_c_vim, &mc_c_vim)
-        MODTAP_TP(mt_s_vim, &vim_s_ctrl_s)
+        MODTAP_TP(mt_s_vim, &vim_s_alt_s)
         MODTAP_TP(mt_r_vim, &vim_r_ctrl_r)
 
         LAYERTAP_TP(lt_q_vim       , &lm_q_vim)
+        LAYERTAP_TP(lt_a_vim       , &mc_a_vim)
     };
 };

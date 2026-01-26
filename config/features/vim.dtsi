@@ -95,6 +95,7 @@
         VIM_MOD_MORPH(vim_i_ctrl_i      , MOD_LCTL|MOD_RCTL, &kp DE_I, &vim_i)
         VIM_MOD_MORPH(vim_o_ctrl_o      , MOD_LCTL|MOD_RCTL, &kp DE_O, &vim_o)
         VIM_MOD_MORPH(vim_s_ctrl_s      , MOD_LCTL|MOD_RCTL, &kp DE_S, &vim_s)
+        VIM_MOD_MORPH(vim_s_alt_s       , MOD_LALT|MOD_RALT, &kp DE_S, &vim_s)
         VIM_MOD_MORPH(vim_r_ctrl_r      , MOD_LCTL|MOD_RCTL, &kp DE_R, &vim_r)
         VIM_MOD_MORPH(vim_c_ctrl_c      , MOD_LCTL|MOD_RCTL, &kp DE_C &vim_reset, &mm_sft_c_vim)
 
