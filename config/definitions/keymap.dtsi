@@ -254,7 +254,7 @@
                     bindings = <
    &none               &msc SCRL_DOWN      &mmv MOVE_UP        &msc SCRL_UP        &none               &none               &mc_home_tab        &mc_end_enter_vim   &lm_esc_vim        &none
    &none               &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_RIGHT     &none               &none               &mc_mic             &mt C_MUTE C_VOL_DN &kp C_VOL_UP       &lt_cam TEXT 0
-   &none               &mkc RCTL           &mmv MOVE_DOWN      &mkp LCTL           &none               &none               &kp C_PREV          &kp C_PP            &kp C_NEXT         &none
+   &none               &mkp RCTL           &mmv MOVE_DOWN      &mkp LCTL           &none               &none               &kp C_PREV          &kp C_PP            &kp C_NEXT         &none
                                            &none               &mo NAV_CP          &kp SPACE           &none               &trans              &none
                         >;
                 };
