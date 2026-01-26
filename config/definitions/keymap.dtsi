@@ -98,7 +98,7 @@
                      bindings = <
    &kp Q               &kp K               &kp O               &kp U               &kp Y               &kp V               &kp D               &kp r               &kp L               &kp F
    &lt SHORTS H        &mt LALT A          &mt LCTL E          &mt LSFT I          &th_comma 0 0       &kp G               &mt LSFT T          &mt LCTL R          &mt LALT N          &lt SHORTS S
-   &none               &mt LGUI Z          &mt LGUI DE_AMPS    &Th_dot 0 0         &none               &none               &mt LGUI P          &mt LGUI M          &mt LGUI W          &none
+   &none               &mt LGUI Z          &mt LGUI DE_AMPS    &th_dot 0 0         &none               &none               &mt LGUI P          &mt LGUI M          &mt LGUI W          &none
                                            &mkp RCLK           &ht_repeat NAV 0    &ltn_num_spc 0 0    &msl_sym_a2 0 0     &ht_sft_vim MEDIA 0 &mkp LCLK
                         >;
                 };
